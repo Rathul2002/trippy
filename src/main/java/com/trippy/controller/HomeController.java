@@ -9,7 +9,7 @@ public class HomeController {
 
     @GetMapping
     private String get() {
-        return "Hello World";
+        return "Your backend is working fine \uD83D\uDE00 ✅";
     }
 
     @GetMapping("/name")
