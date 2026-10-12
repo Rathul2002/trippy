@@ -16,4 +16,9 @@ public class HomeController {
     private String setName(@RequestParam String name) {
         return "Name = "+name;
     }
+
+    @GetMapping("/greet")
+    private String greet() {
+        return "Greetings from Spring Boot!";
+    }
 }
